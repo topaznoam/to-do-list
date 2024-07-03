@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-style: italic;
+    color: #008CBA;
+}
+ol{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li h2 {
+    margin: 8px 4px;
+    display: inline-block;
+}
+
+li dl {
+    margin: 0;
+    display: block;
+}
+
+li dl h3 {
+    margin: 8px 4px;
+    display: inline-block;
+}
+
+button {
+    border: 2px solid #008CBA;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 4px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+input {
+    border: 2px solid #008CBA;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 4px 8px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
